@@ -1,0 +1,41 @@
+html{
+  width: 90%;
+  margin:0 auto;
+  height: 100%;
+  background-color: red;
+}
+header{
+  margin-bottom: 10px;
+}
+.redessociales{
+  text-align: right;
+  display: inline-table;
+  margin-top: 9%;
+}
+
+.imagenlogo{
+  width: 100%;
+}
+
+.nav{
+  background-color: orange;
+  border-radius: 10px;
+}
+
+img[class^='estiloimg']{
+  width: 6%;
+}
+.estilopropio{
+  width: 100%;
+  margin-top: 25%;
+}
+
+p {
+  text-align: justify;
+}
+/*******************************************************************************/
+@media all and (max-width: 900px) {
+.redessociales{
+  text-align: center;
+}
+}
